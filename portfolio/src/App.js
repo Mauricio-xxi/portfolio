@@ -20,6 +20,12 @@ function App() {
         <h2>
           Work in progress...
         </h2>
+        <div>
+          <h2>
+            my projects
+          </h2>
+
+        </div>
       </header>
     </div>
   );
