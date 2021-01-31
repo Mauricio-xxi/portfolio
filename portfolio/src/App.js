@@ -1,33 +1,37 @@
-import logo from './logo.png';
 import './App.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+import { Main } from './pages/Main';
+import { notFound } from './pages/404';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Welcome to my personal web, deployed at AWS
-        </h1>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/alvaro-mauricio-camacho-davila/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact
-        </a>
-        <h2>
-          Work in progress...
-        </h2>
+      <Router>
         <div>
-          <h2>
-            my projects
-          </h2>
-
+          <NavBar/>
+          {/* A <Switch> looks through its children <Route>s and
+              renders the first one that matches the current URL. */}
+          <Switch>
+            <Route path="/about">
+              {/* <About /> */}
+            </Route>
+            <Route path="/users">
+              {/* <Users /> */}
+            </Route>
+            <Route path="/">
+              <Main/>
+            </Route>
+            <Route path="*">
+              <notFound/>              
+            </Route>
+          </Switch>
         </div>
-      </header>
-    </div>
+      </Router>
   );
 }
 
