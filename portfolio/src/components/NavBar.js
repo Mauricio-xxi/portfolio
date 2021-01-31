@@ -7,7 +7,7 @@ export default function NavBar() {
         <div
             style={{
                 padding: '1rem',
-                backgroundColor: 'black',
+                backgroundColor: '#121212',
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
@@ -26,10 +26,10 @@ export default function NavBar() {
                     <Link to="/">Home</Link>
                 </div>
                 <div className="navbar-buttons">
-                    <Link to="/users">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                 </div>
                 <div className="navbar-buttons">
-                    <Link to="/about">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
             </div>
         </div>
