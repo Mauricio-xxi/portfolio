@@ -6,7 +6,8 @@ export const Main = () => {
         <div>
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1>Welcome to my personal web, deployed at AWS</h1>
+                <h1>Hello, I'm Álvaro Camacho</h1>
+                <p>Full Stack Developer</p>
                 <a
                     className="App-link"
                     href="https://www.linkedin.com/in/alvaro-mauricio-camacho-davila/"

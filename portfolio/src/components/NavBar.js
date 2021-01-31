@@ -4,14 +4,33 @@ import logo from '../logo.png'
 
 export default function NavBar() {
     return (
-        <div style={{ backgroundColor: 'black' }}>
+        <div
+            style={{
+                padding: '1rem',
+                backgroundColor: 'black',
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+            }}
+        >
             <div>
                 <img src={logo} className="navbar-logo" alt="logo" />
             </div>
-            <div>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/users">Users</Link>
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                }}
+            >
+                <div className="navbar-buttons">
+                    <Link to="/">Home</Link>
+                </div>
+                <div className="navbar-buttons">
+                    <Link to="/users">Projects</Link>
+                </div>
+                <div className="navbar-buttons">
+                    <Link to="/about">Contact</Link>
+                </div>
             </div>
         </div>
     )
