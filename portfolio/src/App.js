@@ -5,6 +5,7 @@ import { notFound } from './pages/404'
 import NavBar from './components/NavBar'
 import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
+import { Footer } from './components/Footer'
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                         <notFound />
                     </Route>
                 </Switch>
+                <Footer />
             </div>
         </Router>
     )
