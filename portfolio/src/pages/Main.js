@@ -10,6 +10,23 @@ export const Main = () => {
                 <p>Full Stack Developer</p>
                 <h2>Work in progress...</h2>
             </header>
+            <div style={{ height: '600px', display: 'flex', width: '100%' }}>
+                <div></div>
+                <div style={{ width: '50%' }}>
+                    <div
+                        style={{
+                            height: '300px',
+                            backgroundColor: '#3a3a3a',
+                        }}
+                    ></div>
+                    <div
+                        style={{
+                            height: '300px',
+                            backgroundColor: '#121212',
+                        }}
+                    ></div>
+                </div>
+            </div>
         </div>
     )
 }
