@@ -10,9 +10,15 @@ export const Main = () => {
                 <p>Full Stack Developer</p>
                 <h2>Work in progress...</h2>
             </header>
-            <div style={{ height: '600px', display: 'flex', width: '100%' }}>
-                <div></div>
-                <div style={{ width: '50%' }}>
+            <div
+                style={{
+                    height: '600px',
+                    display: 'flex',
+                    backgroundColor: '#ececec',
+                    padding: '2rem',
+                }}
+            >
+                <div style={{ width: '50%', padding: '2rem' }}>
                     <div
                         style={{
                             height: '300px',
@@ -25,6 +31,15 @@ export const Main = () => {
                             backgroundColor: '#121212',
                         }}
                     ></div>
+                </div>
+                <div style={{ width: '50%', padding: '2rem' }}>
+                    I am a full stack developer and financial technical
+                    developer with a great orientation to new technologies and
+                    businesses, an entrepreneur who loves challenges and new
+                    projects. With my startup Psychologicapp I have won prizes
+                    such as Rottary scholarship and the award for disruptive
+                    technology in the program "Yuzz" of the Santander group. I
+                    have recently finished Ironhack's Full Stack Program.
                 </div>
             </div>
         </div>
