@@ -20,7 +20,6 @@ export const Main = () => {
                         I'm a Full Stack Developer
                     </h7>
                 </div>
-                {/* <h2>Work in progress ...</h2> */}
             </header>
             <div
                 style={{
