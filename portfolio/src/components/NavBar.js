@@ -6,7 +6,7 @@ export default function NavBar() {
     return (
         <div
             style={{
-                padding: '1rem',
+                padding: '0.6rem',
                 backgroundColor: '#5d5d5d',
                 display: 'flex',
                 flexDirection: 'row',
