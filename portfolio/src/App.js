@@ -10,6 +10,7 @@ import { Footer } from './components/Footer'
 function App() {
     return (
         <Router>
+            {console.log('>>>>>>>>>>>>>>>>>>>>>', process.env.NODE_ENV)}
             <div>
                 <NavBar />
                 {/* A <Switch> looks through its children <Route>s and
