@@ -5,22 +5,20 @@ export const ProjectsGrid = () => {
     const projects = [
         {
             title: 'first Project',
-            src:
-                'https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg',
+            src: 'https://reactjs.org/logo-og.png',
+            message:
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        },
+        {
+            title: 'first Project',
+            src: 'https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png',
             message:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         },
         {
             title: 'first Project',
             src:
-                'https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg',
-            message:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        },
-        {
-            title: 'first Project',
-            src:
-                'https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg',
+                'https://www.ybrikman.com/assets/img/blog/aws-docker/docker-on-aws.png',
             message:
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         },
