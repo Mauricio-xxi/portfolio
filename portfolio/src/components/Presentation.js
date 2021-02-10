@@ -3,55 +3,19 @@ import mainImage from '../assets/images/mainImage.jpg'
 
 export const Presentation = () => {
     return (
-        <div
-            style={{
-                display: 'flex',
-                flexDirection: 'row',
-                flexWrap: 'wrap-reverse',
-                justifyContent: 'space-around',
-                backgroundColor: '#ececec',
-                padding: '1rem',
-            }}
-        >
-            <div
-                style={{
-                    width: '40vw',
-                    height: '80vh',
-                    padding: '1rem',
-                    position: 'relative',
-                }}
-            >
+        <div className={'presentation-container'}>
+            <div className={'presentation-image-card'}>
+                <div className={'presentation-back-image'}></div>
                 <div
+                    className={'presentation-image'}
                     style={{
-                        height: '80%',
-                        width: '80%',
-                        backgroundColor: '#121212',
-                        position: 'absolute',
-                    }}
-                ></div>
-                <div
-                    style={{
-                        height: '80%',
-                        width: '80%',
-                        position: 'absolute',
-                        top: '17%',
-                        left: '20%',
                         backgroundImage: `url(${mainImage})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                     }}
                 ></div>
             </div>
-            <div
-                style={{
-                    width: '40vw',
-                    height: '80vh',
-                    padding: '1rem',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                }}
-            >
+            <div className={'presentation-text'}>
                 <h6 style={{ margin: 0 }}>who am I</h6>
                 <h2
                     style={{
