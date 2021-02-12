@@ -26,7 +26,7 @@ export const ProjectsGrid = () => {
     return (
         <div
             style={{
-                height: '90vh',
+                height: 'fitContent',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
