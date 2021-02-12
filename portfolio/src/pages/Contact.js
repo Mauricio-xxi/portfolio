@@ -1,18 +1,15 @@
 import React from 'react'
+import { ContactForm } from '../components/ContactForm'
 
 export const Contact = () => {
     return (
-        <div>
-            <h1>Contact</h1>
-            <a
-                className="App-link"
-                style={{ color: 'blue' }}
-                href="https://www.linkedin.com/in/alvaro-mauricio-camacho-davila/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Linkedin
-            </a>
-        </div>
+        <>
+            <div className={'App-header'} style={{ minHeight: '30vh' }}>
+                <h1 style={{ color: '#fcee3d' }}>Contact</h1>
+            </div>
+            <div style={{ overflow: 'auto', padding: '1rem' }}>
+                <ContactForm />
+            </div>
+        </>
     )
 }
