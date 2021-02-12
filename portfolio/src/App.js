@@ -6,21 +6,22 @@ import NavBar from './components/NavBar'
 import { Projects } from './pages/Projects'
 import { Contact } from './pages/Contact'
 import { Footer } from './components/Footer'
+import { Blog } from './pages/Blog'
+import { About } from './pages/About'
 
 function App() {
     return (
         <Router>
-            {console.log('>>>>>>>>>>>>>>>>>>>>>', process.env.NODE_ENV)}
             <div>
                 <NavBar />
                 {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
                 <Switch>
                     <Route path="/about">
-                        <Contact />
+                        <About />
                     </Route>
                     <Route path="/blog">
-                        <Contact />
+                        <Blog />
                     </Route>
                     <Route path="/contact">
                         <Contact />
