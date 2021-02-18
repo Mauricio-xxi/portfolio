@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectCard = ({ title, src, message }) => {
+export const ProjectCard = ({ title, src, message, link }) => {
     return (
         <div className="flip-card">
             <div className="flip-card-inner">
@@ -15,6 +15,7 @@ export const ProjectCard = ({ title, src, message }) => {
                     <h1>{title}</h1>
                     <p>Architect & Engineer</p>
                     <p>{message}</p>
+                    <a href={link}>Github</a>
                 </div>
             </div>
         </div>
