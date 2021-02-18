@@ -4,23 +4,24 @@ import { ProjectCard } from './ProjectCard'
 export const ProjectsGrid = () => {
     const projects = [
         {
-            title: 'first Project',
+            title: 'Portfolio',
             src: 'https://reactjs.org/logo-og.png',
-            message:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            message: 'My owm portfolio.',
+            link: 'https://github.com/Mauricio-xxi/portfolio',
         },
         {
-            title: 'first Project',
+            title: 'Predicting stock prices',
             src: 'https://miro.medium.com/max/640/1*XzIRJGujfqAiOV2EIQgR_Q.png',
             message:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                'A basic practice to predict stock prices in python last 60 days predict next day.',
+            link: 'https://github.com/Mauricio-xxi/predicting-stock-prices',
         },
         {
-            title: 'first Project',
+            title: 'Image transformations',
             src:
                 'https://www.ybrikman.com/assets/img/blog/aws-docker/docker-on-aws.png',
-            message:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            message: 'my first pip package.',
+            link: 'https://github.com/Mauricio-xxi/image_transformations',
         },
     ]
     return (
