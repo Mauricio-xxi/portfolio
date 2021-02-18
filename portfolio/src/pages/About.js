@@ -1,11 +1,10 @@
 import React from 'react'
+import { PagesHeader } from '../components/PagesHeader'
 
 export const About = () => {
     return (
         <>
-            <div className={'App-header'} style={{ minHeight: '30vh' }}>
-                <h1 style={{ color: '#fcee3d' }}>About</h1>
-            </div>
+            <PagesHeader name={'About'} />
             <div style={{ minHeight: '70vh' }}></div>
         </>
     )
