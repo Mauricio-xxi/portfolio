@@ -1,4 +1,8 @@
 import React from 'react'
+import linkedin from "../assets/images/linkedin.svg"
+import codeWars from "../assets/images/promo.svg"
+import mail from "../assets/images/mail.svg"
+import github from "../assets/images/github.svg"
 
 export const Footer = () => {
     return (
@@ -10,16 +14,25 @@ export const Footer = () => {
                             'https://www.linkedin.com/in/alvaro-mauricio-camacho-davila/'
                         }
                     >
-                        Linkedin
+                        <img src={linkedin} alt={"linkedin icon"} className={"footer-icons"} />
                     </a>
                 </li>
                 <li>
                     <a href={'https://www.codewars.com/users/Mauricio-xxi'}>
-                        Code Wars
+                    <img src={codeWars} alt={"code wars icon"} className={"footer-icons"} />
                     </a>
                 </li>
                 <li>
-                    <a href={'mailto:alvarocamachodavila@gmail.com'}>Mail</a>
+                    <a href={'mailto:alvarocamachodavila@gmail.com'}>
+                    <img src={mail} alt={"mail icon"} className={"footer-icons"} />
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href={'https://github.com/Mauricio-xxi'}>
+                    <img src={github} alt={"github icon"} className={"footer-icons"} />
+                        
+                    </a>
                 </li>
             </ul>
             <ul className={'copyright'}>
