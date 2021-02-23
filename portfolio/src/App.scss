@@ -1,3 +1,4 @@
+@import 'components/Footer';
 $breakpoints: (
     phone: 640px,
     tablet: 768px,
@@ -74,11 +75,7 @@ a:active {
     text-align: center;
     background-color: #3a3a3a;
 }
-.icons {
-    cursor: default;
-    list-style: none;
-    padding-left: 0;
-}
+
 .copyright {
     color: #ffffff80;
     font-size: 0.8em;
